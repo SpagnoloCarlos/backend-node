@@ -1,0 +1,29 @@
+{
+  "name": "amb-user",
+  "version": "1.0.0",
+  "description": "ABM of user to practice",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file .env --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Andres Spagnolo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-joi-validation": "^5.0.1",
+    "express-jwt": "^8.4.1",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
+  }
+}

@@ -1,0 +1,4 @@
+/node_modules
+.env
+eslint.*
+package-lock.json
